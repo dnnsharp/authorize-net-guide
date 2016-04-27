@@ -8,6 +8,21 @@
 
 * The merchant must be able to store payment gateway account data securely (for example, API Login ID, or Transaction Key).
 
-* The merchant must have one of the following module installed.
+* The merchant must have one of the following module installed and.
+
+  * Action Form 03.08.74
+
+  * Action Grid 04.00.39
+
+  * DNN API Endpoint 01.02.15
+
+  * Sharp Scheduler 02.01.18
+
+  * InfoBox 01.01.22
+  
+* The merchant must have a platform which contains minimum of DNN 6 and ASP.NET 4.0. 
+
+
+
 
 
