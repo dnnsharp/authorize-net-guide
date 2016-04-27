@@ -7,5 +7,5 @@
 * [Make a payment with Electronic Check](make_a_payment_with_electronic_check.md)
 * [FAQs](faqs.md)
 * [Resources](resources.md)
-* Simple Checkout
+* [Simple Checkout](simple_checkout.md)
 
