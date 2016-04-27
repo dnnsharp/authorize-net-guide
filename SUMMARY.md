@@ -6,4 +6,5 @@
 * [Resources](resources.md)
 * [FAQs](faqs.md)
 * Make a payment with Electronic Check
+* Make a payment with Electronic Check
 
