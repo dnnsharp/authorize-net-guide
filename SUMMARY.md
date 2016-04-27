@@ -2,5 +2,5 @@
 
 * [About](README.md)
 * [Installation](chapter1.md)
-* [Make a payment with Credit Card, CC](make_a_payment_with_credit_card,_cc.md)
+* [Make a payment with Credit Card](make_a_payment_with_credit_card,_cc.md)
 
