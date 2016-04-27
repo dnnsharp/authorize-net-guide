@@ -1,2 +1,2 @@
-# Make a payment with Credit Card, CC
+# Make a payment with Credit Card
 
