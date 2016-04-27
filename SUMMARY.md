@@ -6,5 +6,5 @@
 * [Resources](resources.md)
 * [FAQs](faqs.md)
 * [Make a payment with Electronic Check](make_a_payment_with_electronic_check.md)
-* Requirements
+* [Requirements](requirements.md)
 
