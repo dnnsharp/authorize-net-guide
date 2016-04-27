@@ -14,13 +14,6 @@ For your convenience, DNN Authorize.Net Add-on already contains a template to ge
 
 It is a form that will do an  Authorization and Capture transaction. This is the most common type of credit card transaction and is the default payment gateway transaction type. The amount is sent for authorization, and if approved, is automatically submitted for settlement.
 
-**Requirements
-**
-* The merchant must have a merchant bank account that allows Internet transactions.
-* The merchant must have an e-commerce (Card Not Present) Authorize.Net Payment Gateway account.
-* The merchant must have a valid Secure Sockets Layer (SSL) certificate and their Web site must be capable of initiating both client- and server-side SSL connections.
-* The merchant must be able to store payment gateway account data securely (for example, API Login ID, or Transaction Key).
-
 **Settings Reference**
 * API Login ID
 
