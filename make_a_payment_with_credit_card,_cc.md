@@ -14,6 +14,25 @@ For your convenience, DNN Authorize.Net Add-on already contains a template to ge
 
 It is a form that will do an  Authorization and Capture transaction. This is the most common type of credit card transaction and is the default payment gateway transaction type. The amount is sent for authorization, and if approved, is automatically submitted for settlement.
 
+**Getting started**
+
+Step 1 - Sign Up and Activate an Authorize.Net Account. 
+
+You will need both a merchant account and Authorize.Net Payment Gateway to accept credit cards.
+You can sign up here: https://www.authorize.net/signupnow/.
+Step 2 - Get the API Login ID and Transaction Key from Authorize.Net. 
+
+These keys will authenticate requests to the Authorize.Net Payment Gateway.
+Get the id and the key if don't already have them. You will find them in your ACCOUNT -> Settings -> Security Settings -> General Security Settings -> API Login ID and Transaction Key.
+
+Your API Login ID and Transaction Key are unique pieces of information specifically associated with your payment gateway account. However, the API login ID and Transaction Key are NOT used for logging into the Merchant Interface. These two values are only required when setting up an Internet connection between your Web site and the payment gateway. They are used by the payment gateway to authenticate that you are authorized to submit Web site transactions.
+Step 3 - Set up Action Form
+
+Add an Action Form module to your page, go to Manage Form, and select a Authorize.Net template to get started.
+Set your API Login ID and Transaction Key.
+Set the description and total ammount for your item.
+Add any extra fields that you need for your particular setup.
+
 **Settings Reference**
 * API Login ID
 
