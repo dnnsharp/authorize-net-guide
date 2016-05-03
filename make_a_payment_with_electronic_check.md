@@ -56,8 +56,11 @@ Your API Login ID and Transaction Key are unique pieces of information specifica
 **Step 3 - Setup**
 
 Add an Action Form module to your page, go to Manage Form and select a Authorize.Net template to get started.
+
 Set your API Login ID and Transaction Key.
+
 Set the description and total amount for your item.
+
 Add any extra fields that you need for your particular setup.
 
 **Settings Reference**
