@@ -2,6 +2,6 @@
   "variables": {
         "code": "FAKE",
         "name": "Authorize.Net",
-        "productPage": "http://dnnsharp.com/"
+        "productPage": "http://www.dnnsharp.com/dnn/modules/action-form-builder/dnn-authorizenet"
     }
 }
