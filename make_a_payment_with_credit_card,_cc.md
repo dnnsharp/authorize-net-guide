@@ -28,7 +28,7 @@ Get the id and the key if don't already have them. You will find them in your AC
 
 Your API Login ID and Transaction Key are unique pieces of information specifically associated with your payment gateway account. However, the API login ID and Transaction Key are NOT used for logging into the Merchant Interface. These two values are only required when setting up an Internet connection between your Web site and the payment gateway. They are used by the payment gateway to authenticate that you are authorized to submit Web site transactions.
 
-**Step 3 - Set up **
+**Step 3 - Setup **
 
 Add a DNN Sharp module to your page, go to Manage Settings, and add a new button with an Authorize.Net Action.
 
