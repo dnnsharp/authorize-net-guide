@@ -8,5 +8,5 @@
 * [Simple Checkout](simple_checkout.md)
 * [FAQs](faqs.md)
 * [Resources](resources.md)
-* Getting Started
+* [Getting Started](getting_started.md)
 
