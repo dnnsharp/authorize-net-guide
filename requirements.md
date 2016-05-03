@@ -8,7 +8,7 @@
 
 * The merchant must be able to store payment gateway account data securely (for example, API Login ID, or Transaction Key).
 
-* The merchant must have one of the following module installed and.
+* The merchant must have one of the following module installed
 
   * Action Form 03.08.74
 
@@ -20,7 +20,7 @@
 
   * InfoBox 01.01.22
   
-* The merchant must have a platform which contains minimum of DNN 6 and ASP.NET 4.0. 
+* The merchant must have a platform containing DNN 6 and ASP.NET 4.0 at the least.
 
 
 
