@@ -55,7 +55,7 @@ Your API Login ID and Transaction Key are unique pieces of information specifica
 
 **Step 3 - Setup**
 
-Add an Action Form module to your page, go to Manage Form and select a Authorize.Net template to get started.
+Add a DNN Sharp module to your page, go to Manage Settings, and add a new button with an Authorize.Net Action.
 
 Set your API Login ID and Transaction Key.
 
