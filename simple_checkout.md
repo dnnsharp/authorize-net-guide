@@ -33,6 +33,28 @@ If shipping is required, you can configure up to 10 shipping methods (e.g. Groun
 
 You can specify the maximum quantity of each item, per order, that a customer may purchase.
 
+**Getting started**
+
+**Step 1 - Sign Up and Activate an Authorize.Net Account. **
+
+You will need both a merchant account and Authorize.Net Payment Gateway to accept credit cards.
+You can sign up here: https://www.authorize.net/signupnow/
+
+**Step 2 - Setup your items in Authorize.Net**
+
+Go to your account's Simple Checkout tab, and add the desired items. Currentlly, Authorize.Net provides three types of items: Donation, Product and Service.
+Once the item is created, make sure you Copy all the Donate/Product/Service Button Code. That will be something along: <form ... </form>
+**
+Step 3 - Setup Action Form**
+
+Add an DNN Sharp module to your page.
+
+Add a Button or Picture Button to your Module.
+
+Customize to your liking the text or the picture, then Add Action -> 'Add a Simple Checkout to a button' to On Click Handler of the newly created button.
+
+Paste the HTML code provided on Authorize.Net for the item in the Button Code field.
+
 **Settings Reference**
 
 * Button Code
