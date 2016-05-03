@@ -1,7 +1,7 @@
 {
   "variables": {
         "code": "FAKE",
-        "name": "Fake Product",
+        "name": "Authorize.Net",
         "productPage": "http://dnnsharp.com/"
     }
 }
