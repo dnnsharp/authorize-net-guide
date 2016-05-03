@@ -44,8 +44,8 @@ You can sign up here: https://www.authorize.net/signupnow/
 
 Go to your account's Simple Checkout tab, and add the desired items. Currentlly, Authorize.Net provides three types of items: Donation, Product and Service.
 Once the item is created, make sure you Copy all the Donate/Product/Service Button Code. That will be something along: <form ... </form>
-**
-Step 3 - Setup Action Form**
+
+**Step 3 - Setup Action Form**
 
 Add an DNN Sharp module to your page.
 
