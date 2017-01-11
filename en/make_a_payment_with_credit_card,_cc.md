@@ -94,21 +94,24 @@ Add any extra fields that you need for your particular setup.
 
   The total Amount to pay in the selected currency. Can contain other context tokens, for example \[TotalAmount\] and My Tokens.
 
-* Credit Card Number 
+* Credit Card Number
 
-        Which of the fields in this form should be used as Credit Card Number
+ Which of the fields in this form should be used as Credit Card Number
 
 * Credit Card CCV
 
-        Which of the fields in this form should be used as Credit Card CCV. This field is required if the merchant would like to use the Card Code Verification \(CCV\) security feature.
+  Which of the fields in this form should be used as Credit Card CCV. This field is required if the merchant would like to use the Card Code Verification \\(CCV\\) security feature.
 
-* Expiration Month
+* Expiration Month 
 
-* Expiration Year
+Which of the fields in this form should be used as the customer’s credit card expiration  Month.
 
+* Expiration Year Which of the fields in this form should be used as The customer’s credit card expiration Year.
 
+  Note: x\_exp\_date Value: The customer’s credit card expiration date will be sent as a concatenation of the Expiration Month and Expiration Year fields.
 
+  Formats accepted by Authorize.Net: MMYY, MM/YY,MM-YY, MMYYYY, MM/YYYY, MM-YYYY. Set your fields accordingly.
 
-
+* 
 
 
