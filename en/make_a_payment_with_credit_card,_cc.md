@@ -94,5 +94,21 @@ Add any extra fields that you need for your particular setup.
 
   The total Amount to pay in the selected currency. Can contain other context tokens, for example \[TotalAmount\] and My Tokens.
 
+* Credit Card Number 
+
+        Which of the fields in this form should be used as Credit Card Number
+
+* Credit Card CCV
+
+        Which of the fields in this form should be used as Credit Card CCV. This field is required if the merchant would like to use the Card Code Verification \(CCV\) security feature.
+
+* Expiration Month
+
+* Expiration Year
+
+
+
+
+
 
 
