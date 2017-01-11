@@ -66,81 +66,85 @@ Add any extra fields that you need for your particular setup.
 
 * API Login ID
 
-  Required. API Login ID. This key will authenticate requests to the payment gateway.
+Required. API Login ID. This key will authenticate requests to the payment gateway.
 
 * Transaction Key
 
-  Required. Transaction Key. This key will authenticate requests to the payment gateway.
+Required. Transaction Key. This key will authenticate requests to the payment gateway.
 
 * Credit Card Transaction Type
 
-  Credit Card Transaction Type. It can be one of the following: AUTH\_CAPTURE, AUTH\_ONLY, PRIOR\_AUTH\_CAPTURE, CAPTURE\_ONLY, CREDIT, VOID, or you can use any other future development Authorize.Net types using the Expression button at the end of the dropdown list.If the value submitted does not match a supported value, the transaction is rejected. If this field is not submitted or the value is blank, the payment gateway will process the transaction as an AUTH\_CAPTURE.
+Credit Card Transaction Type. It can be one of the following: AUTH\_CAPTURE, AUTH\_ONLY, PRIOR\_AUTH\_CAPTURE, CAPTURE\_ONLY, CREDIT, VOID, or you can use any other future development Authorize.Net types using the Expression button at the end of the dropdown list.If the value submitted does not match a supported value, the transaction is rejected. If this field is not submitted or the value is blank, the payment gateway will process the transaction as an AUTH\_CAPTURE.
 
 * Go Live
 
-  Enable this option to switch to Live Mode. By default, unchecked, Test Mode, the transaction will be posted to the Authorize.Net's test server for developer accounts:[https://test.authorize.net/gateway/transact.dll](https://test.authorize.net/gateway/transact.dll).
+Enable this option to switch to Live Mode. By default, unchecked, Test Mode, the transaction will be posted to the Authorize.Net's test server for developer accounts:[https://test.authorize.net/gateway/transact.dll](https://test.authorize.net/gateway/transact.dll).
 
-  Make a few test transactions before going live!
+Make a few test transactions before going live!
 
 * Payment description
 
-  Tells what the transaction is about, for example a service name. This will appear in statements, receipts, etc.
+Tells what the transaction is about, for example a service name. This will appear in statements, receipts, etc.
 
 * Transaction's currency
 
-  For your convenience there is a dropdown list with a few preset currencies. You can change it to other currencies at any time using the Expression button at the end of the dropdown list. The currencies that a merchant can accept through Authorize.Net are determined by their payment processor. Read the documentation or contact Authorize.Net to check which of the currencies are set for your account.
+For your convenience there is a dropdown list with a few preset currencies. You can change it to other currencies at any time using the Expression button at the end of the dropdown list. The currencies that a merchant can accept through Authorize.Net are determined by their payment processor. Read the documentation or contact Authorize.Net to check which of the currencies are set for your account.
 
 * Amount - total to pay
 
-  The total Amount to pay in the selected currency. Can contain other context tokens, for example \[TotalAmount\] and My Tokens.
+The total Amount to pay in the selected currency. Can contain other context tokens, for example \[TotalAmount\] and My Tokens.
 
-* Credit Card Number
+* Credit Card Numbe
 
-  Which of the fields in this form should be used as Credit Card Number
+Which of the fields in this form should be used as Credit Card Number
 
 * Credit Card CCV
 
-  Which of the fields in this form should be used as Credit Card CCV. This field is required if the merchant would like to use the Card Code Verification \\(CCV\\) security feature.
+Which of the fields in this form should be used as Credit Card CCV. This field is required if the merchant would like to use the Card Code Verification \\(CCV\\) security feature.
 
 * Expiration Month
 
 Which of the fields in this form should be used as the customer’s credit card expiration  Month.
 
-* Expiration Year Which of the fields in this form should be used as The customer’s credit card expiration Year.
+* Expiration Year 
 
-  Note: x\_exp\_date Value: The customer’s credit card expiration date will be sent as a concatenation of the Expiration Month and Expiration Year fields.
+Which of the fields in this form should be used as The customer’s credit card expiration Year.
 
-  Formats accepted by Authorize.Net: MMYY, MM/YY,MM-YY, MMYYYY, MM/YYYY, MM-YYYY. Set your fields accordingly.
+Note: x\_exp\_date Value: The customer’s credit card expiration date will be sent as a concatenation of the Expiration Month and Expiration Year fields.
+
+Formats accepted by Authorize.Net: MMYY, MM/YY,MM-YY, MMYYYY, MM/YYYY, MM-YYYY. Set your fields accordingly.
 
 * First Name
 
-  Which of the fields in this form should be used as First Name.
+Which of the fields in this form should be used as First Name.
 
 * Last Name
 
-  Which of the fields in this form should be used as Last Name.
+Which of the fields in this form should be used as Last Name.
 
 * Address
 
-  Which of the fields in this form should be used as Address.
+Which of the fields in this form should be used as Address.
 
 * City
 
-  Which of the fields in this form should be used as City.
+Which of the fields in this form should be used as City.
 
 * State
 
-  Which of the fields in this form should be used as State.
+Which of the fields in this form should be used as State.
 
 * Country
 
-  Which of the fields in this form should be used as Country.
+Which of the fields in this form should be used as Country.
 
 * Postal Code
 
-  Which of the fields in this form should be used as Postal Code/ ZIP Code.
+Which of the fields in this form should be used as Postal Code/ ZIP Code.
 
-* Fields Select which extra data to pass to Authorize.Net. Map Authorize.Net's Fields to Action Form Fields or Expressions. Additional data to pass to Authorize.Net. Make sure you read the AIM manual. Some common used data could be perhaps x\_invoice\_num, x\_email, x\_cust\_id, with values from some tokens.
+* Fields 
+
+Select which extra data to pass to Authorize.Net. Map Authorize.Net's Fields to Action Form Fields or Expressions. Additional data to pass to Authorize.Net. Make sure you read the AIM manual. Some common used data could be perhaps x\_invoice\_num, x\_email, x\_cust\_id, with values from some tokens.
 
 * Output Authorize.Net Response Code Token Name
 
@@ -177,8 +181,4 @@ Define a list of actions that should execute when this action's result is Error.
 * On Held For Review
 
 Define a list of actions that should execute when this action's result is Held For Review.
-
-
-
-
 
