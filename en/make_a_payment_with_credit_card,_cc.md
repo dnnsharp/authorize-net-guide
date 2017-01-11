@@ -62,3 +62,37 @@ Set the description and total amount for your item.+
 
 Add any extra fields that you need for your particular setup.
 
+### **Settings Reference**
+
+* API Login ID
+
+  Required. API Login ID. This key will authenticate requests to the payment gateway.
+
+* Transaction Key
+
+  Required. Transaction Key. This key will authenticate requests to the payment gateway.
+
+* Credit Card Transaction Type
+
+  Credit Card Transaction Type. It can be one of the following: AUTH\_CAPTURE, AUTH\_ONLY, PRIOR\_AUTH\_CAPTURE, CAPTURE\_ONLY, CREDIT, VOID, or you can use any other future development Authorize.Net types using the Expression button at the end of the dropdown list.If the value submitted does not match a supported value, the transaction is rejected. If this field is not submitted or the value is blank, the payment gateway will process the transaction as an AUTH\_CAPTURE.
+
+* Go Live
+
+  Enable this option to switch to Live Mode. By default, unchecked, Test Mode, the transaction will be posted to the Authorize.Net's test server for developer accounts:[https://test.authorize.net/gateway/transact.dll](https://test.authorize.net/gateway/transact.dll).
+
+  Make a few test transactions before going live!
+
+* Payment description
+
+  Tells what the transaction is about, for example a service name. This will appear in statements, receipts, etc.
+
+* Transaction's currency
+
+  For your convenience there is a dropdown list with a few preset currencies. You can change it to other currencies at any time using the Expression button at the end of the dropdown list. The currencies that a merchant can accept through Authorize.Net are determined by their payment processor. Read the documentation or contact Authorize.Net to check which of the currencies are set for your account.
+
+* Amount - total to pay
+
+  The total Amount to pay in the selected currency. Can contain other context tokens, for example \[TotalAmount\] and My Tokens.
+
+
+
