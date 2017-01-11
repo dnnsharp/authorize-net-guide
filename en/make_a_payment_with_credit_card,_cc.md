@@ -2,21 +2,21 @@
 
 ### Intro
 
-This type of payment allows one to make a payment with Credit Card through Authorize.Net's Payment Gateway, using Authorize.Net's Advanced Integration Method \(AIM\).
+This type of payment allows one to make a payment with Credit Card through Authorize.Net's Payment Gateway, using Authorize.Net's Advanced Integration Method \(AIM\).
 
-The security of an AIM transaction is ensured through a 128-bit Secure Sockets Layer \(SSL\) connection between the merchant’s Web server and the Authorize.Net Payment Gateway.
+The security of an AIM transaction is ensured through a 128-bit Secure Sockets Layer \(SSL\) connection between the merchant’s Web server and the Authorize.Net Payment Gateway.
 
-There are different credit card transaction types supported by the payment gateway and they each have specific field requirements: 
+There are different credit card transaction types supported by the payment gateway and they each have specific field requirements:
 
 * Authorization and Capture; 
 * Authorization Only; 
 * Prior Authorization and Capture, etc.
 
-Make sure you have already read the Authorize.Net manual prior to using different credit card transaction types and specific fields: [http://www.authorize.net/support/AIM\_guide.pdf](http://www.authorize.net/support/AIM_guide.pdf). 
+Make sure you have already read the Authorize.Net manual prior to using different credit card transaction types and specific fields: [http://www.authorize.net/support/AIM\_guide.pdf](http://www.authorize.net/support/AIM_guide.pdf).
 
 For your convenience, DNN Authorize.Net Add-on already contains a template available in ActionForm to get you started, called '
 
-Pay With Credit Card, Authorize.Net.It is a form that will do an Authorization and Capture transaction. This is the most common type of credit card transaction and is the default payment gateway transaction type. The amount is sent for authorization, and if approved, is automatically submitted for settlement.
+Pay With Credit Card, Authorize.Net.It is a form that will do an Authorization and Capture transaction. This is the most common type of credit card transaction and is the default payment gateway transaction type. The amount is sent for authorization, and if approved, is automatically submitted for settlement.
 
 ### Requirements
 
