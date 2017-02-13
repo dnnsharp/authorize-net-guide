@@ -42,7 +42,7 @@ Add in Transaction ID the token for your text box field.
 
 Add any extra fields that you need for your particular setup.
 
-## Settings Reference
+### Settings Reference
 
 * API Login ID
   * Required. API Login ID. This key will authenticate requests to the payment gateway.
