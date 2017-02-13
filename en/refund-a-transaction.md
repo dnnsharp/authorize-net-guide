@@ -14,23 +14,21 @@ This transaction type is used to refund a customer for a transaction that was su
 
 ### Getting started
 
-### Step 1 - Sign Up and Activate an Authorize.Net Account. 
+### Step 1 - Sign Up and Activate an Authorize.Net Account.
 
 You will need both a merchant account and Authorize.Net Payment Gateway to accept credit cards.
 
-You can sign up here: [https://www.authorize.net/signupnow/](https://www.authorize.net/signupnow/).
+You can sign up here: [https://www.authorize.net/signupnow/](https://www.authorize.net/signupnow/).
 
+### Step 2 - Get the API Login ID and Transaction Key from Authorize.Net.
 
-
-### Step 2 - Get the API Login ID and Transaction Key from Authorize.Net. 
-
-These keys will authenticate requests to the Authorize.Net Payment Gateway.
+These keys will authenticate requests to the Authorize.Net Payment Gateway.
 
 Get the id and the key if don't already have them. You will find them in your ACCOUNT -&gt; Settings -&gt; Security Settings -&gt; General Security Settings -&gt; API Login ID and Transaction Key.
 
-Your API Login ID and Transaction Key are unique pieces of information specifically associated with your payment gateway account. However, the API login ID and Transaction Key are NOT used for logging into the Merchant Interface. These two values are only required when setting up an Internet connection between your Web site and the payment gateway. They are used by the payment gateway to authenticate that you are authorized to submit Web site transactions.
+Your API Login ID and Transaction Key are unique pieces of information specifically associated with your payment gateway account. However, the API login ID and Transaction Key are NOT used for logging into the Merchant Interface. These two values are only required when setting up an Internet connection between your Web site and the payment gateway. They are used by the payment gateway to authenticate that you are authorized to submit Web site transactions.
 
-### Step 3 - Set up Action Form
+### Step 3 - Set up Action Form
 
 Add an Action Form module to your page, go to Manage Form, and select Start from Scratch.
 
@@ -46,12 +44,18 @@ Add any extra fields that you need for your particular setup.
 
 ## Settings Reference
 
-* API Login ID   - Required. API Login ID. This key will authenticate requests to the payment gateway.
-* Transaction Key   - Required. Transaction Key. This key will authenticate requests to the payment gateway.
-* Transaction amount   - Required. Amount of the transaction. This is the total amount and must include tax, shipping, and any other charges. Up to 15 digits with a decimal point.
-* Transaction ID   - Required. Transaction ID of the original settled transaction.
-* On Success   - Define a list of actions that should execute when a transaction is successfully refunded. 
-  You can use the \[AuthorizeResponseCode\], \[AuthorizeResponseMessage\], \[AuthorizeAuthCode\], tokens to show more info.
+* API Login ID
+  * Required. API Login ID. This key will authenticate requests to the payment gateway.
+* Transaction Key
+  * Required. Transaction Key. This key will authenticate requests to the payment gateway.
+* Transaction amount
+  * Required. Amount of the transaction. This is the total amount and must include tax, shipping, and any other charges. Up to 15 digits with a decimal point.
+* Transaction ID
+  * Required. Transaction ID of the original settled transaction.
+* On Success
+
+  * Define a list of actions that should execute when a transaction is successfully refunded. 
+    You can use the \[AuthorizeResponseCode\], \[AuthorizeResponseMessage\], \[AuthorizeAuthCode\], \[AuthorizeTransactionId\] tokens to show more info.
 
 * On Error - Define a list of actions that should execute when this action's result is Error. You can use the \[AuthorizeErrorMessage\] and \[AuthorizeErrorCode\] tokens to show more info.
 
